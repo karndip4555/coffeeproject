@@ -1,0 +1,100 @@
+#headerimg {
+  height: 50vh;
+  width: 100%;
+  background-image: url(coffeebackgroundheader.jpg);
+  background-size: 100%;
+  /* margin: auto; */
+  /* background-repeat: no-repeat; */
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 8px black;
+  background-size: cover;
+  position: relative;
+}
+#search {
+  width: 50vw;
+  height: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  margin-left: 43%;
+  padding: 3px;
+  outline: none;
+  color: rgb(0, 0, 0);
+ 
+}
+
+.imageround {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 300px;
+  padding: 30px;
+  position: absolute;
+  
+ 
+}
+.imagesection {
+  border-radius: 100%;
+  width: 200px;
+  height: 180px;
+  box-shadow: 0px 8px 8px black;
+}
+
+.namess {
+    display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+  margin-top: 250px;
+  margin-right: 190px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    overflow: hidden;
+    /* position: sticky; */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.para1{
+    width: 75%;
+    height: 90vh;
+    
+   margin-left: 180px;
+   overflow: hidden;
+  
+   font-family: Arial, Helvetica, sans-serif;  
+   background-color: rgb(201, 117, 145);  
+   border-radius: 5%;
+   padding:30px;
+   box-shadow: 0px 0px 8px brown;
+   
+
+    
+}
+.para2{
+    width: 75%;
+    height: 90vh;
+    
+   margin-left: 180px;
+   overflow: hidden;
+  
+   font-family: Arial, Helvetica, sans-serif;  
+   background-color: rgb(201, 117, 145);  
+   border-radius: 5%;
+   padding:30px;
+   box-shadow: 0px 0px 8px rgb(185, 8, 8);
+   margin-top: 50px;
+   padding: 50px;
+   font-size: 20px;
+   
+}
+body{
+    background-color: rgb(188, 109, 109) ;
+}
